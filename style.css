@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: min-content;
+}
+.container{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 200px;
+    padding: 40px;
+    float: left;
+}
+#sikertelen{
+    color: #9f1602;
+    background-color: #fff2f1;
+    border-color: #9f1602;
+    list-style: url("images/icon_bad.png");
+    box-shadow: 3px 3px 15px #9f1602;
+}
+#sikeres{
+    color: #007711;
+    background-color: #f0fff2;
+    border-color: #007711;
+    list-style: url("images/icon_good.png");
+    box-shadow: 3px 3px 15px #007711;
+}
+img{
+    /*float: left;*/
+    width: 100px;
+    margin: 50px;
+}
+li{
+    margin-left: 20px;
+}
+#gondolat{
+    /*float: left;*/
+    position: absolute;
+    width: 261px;
+    border: 2px solid #030555;
+    background-color: #fdfc32;
+    padding: 2px;
+    transform: rotate(15deg);
+    
+}
+#gondolat p{
+    background-color: #030555;
+    color: #fdfc32;
+    font-weight: bold;
+    padding: 7px;
+}
+#gon-con{
+    transform: translate(-50px, -20px);
+}
